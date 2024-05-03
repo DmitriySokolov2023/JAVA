@@ -14,6 +14,7 @@ public class level3Example2 {
         float num = 12.34f;
         int num1 = Integer.parseInt(String.format("%.0f",num));
         int num2 = Math.round((num - num1) * 100);
+        System.out.println("Исходное число" + num);
 
         System.out.println("Переменная num1 = " + num1);
         System.out.println("Переменная num2 = " + num2);

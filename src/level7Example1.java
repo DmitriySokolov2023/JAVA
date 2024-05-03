@@ -21,8 +21,7 @@ public class level7Example1 {
     public static int[] newArray(int min, int max) {
         int[] arr = new int[max - min + 1];
 
-        // Заполняем массив значениями от минимального до максимального
-        int current = Math.min(min, max);
+        System.out.println("Массив от "+min+" до "+max+": ");
         for (int i = 0; i < arr.length; i++) {
             arr[i] = i + min;
         }

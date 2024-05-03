@@ -14,6 +14,8 @@ int[] {
  */
 
 
+import java.util.Arrays;
+
 public class level6Example2 {
     public static void main(String[] args) {
         int[] arr = {1, 2, 3, 3, 4, 5};
@@ -28,7 +30,7 @@ public class level6Example2 {
                 break;
             }
         }
-
+        System.out.println("Исходный массив: "+ Arrays.toString(arr));
         if (doubleElement) {
             System.out.println("В массиве есть два одинаковых элемента подряд.");
         } else {

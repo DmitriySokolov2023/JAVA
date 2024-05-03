@@ -17,7 +17,7 @@ public class level2Example2 {
         double V = (4.0 / 3.0) * Math.pow(r, 3) * Math.PI;
         double S = 4 * Math.PI * Math.pow(r, 2);
 
-
+        System.out.println("Радиус шара: " + r);
         System.out.println("Объем шара: " + String.format("%.2f",V));
         System.out.println("Площадь поверхности шара: " + String.format("%.2f",S));
     }

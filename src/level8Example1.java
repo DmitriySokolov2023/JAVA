@@ -21,7 +21,7 @@ public class level8Example1 {
 
         ArrayList<Long> sizeFiles = new ArrayList<>();
 
-
+        System.out.println("Путь до папки: "+pathToFolder);
         if (files != null) {
 
             for (File file : files) {

@@ -11,7 +11,7 @@ public class level1Example1 {
 
         System.out.println("Введите число:");
         int x = scanner.nextInt();
-
+        System.out.println("Введенное число: " + x);
         // Проверяем, отрицательное ли число
         if (x < 0) {
             System.out.println("Число отрицательное");

@@ -8,9 +8,12 @@ String[] arr = {"ab", "cd", "ef"};
  */
 
 
+import java.util.Arrays;
+
 public class level2Example1 {
     public static void main(String[] args) {
         String[] arr = {"ab", "cd", "ef"};
+        System.out.println("Исходные данные: " + Arrays.toString(arr));
 
         for (String s : arr) {
             System.out.println("Первый символ элемента " + s + ": ");

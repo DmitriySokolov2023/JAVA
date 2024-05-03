@@ -14,6 +14,7 @@ import java.util.Arrays;
 public class level4Example1 {
     public static void main(String[] args) {
         int[] arr = {1, 0, 2, 3, 0, 5};
+        System.out.println("Исходные данные: " + Arrays.toString(arr));
 
         ArrayList<Integer> list = new ArrayList<>();
 
@@ -30,7 +31,7 @@ public class level4Example1 {
             newArr[i] = list.get(i);
         }
 
-
+        System.out.println("Измененный массив:  ");
         System.out.println(Arrays.toString(newArr));
     }
 }
